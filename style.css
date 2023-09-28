@@ -405,6 +405,17 @@ footer .text span a:hover{
   display: none;
 }
 
+/* Project List Style */
+.project-list{
+  list-style-type: disc;
+  text-indent: -1em;
+}
+
+.project-list li{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
 /* Responsive Media Query */
 @media (max-width: 1190px) {
   section .content{
