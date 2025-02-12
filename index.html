@@ -5,8 +5,8 @@
 <head>
   <meta charset="UTF-8" />
   <title>Portfolio Site | Mistry Vishal</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="timeline.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/timeline.css" />
   <!-- Fontawesome CDN Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,9 +47,9 @@
     <div class="home-content">
       <div class="text">
         <div class="text-one">Hello,</div>
-        <div class="text-two">I'm Vishal Mistry</div>
-        <div class="text-three">Passionate Learner</div>
-        <div class="text-three">and Full Stack Web Developer</div>
+        <div id="typed-lines">
+          <!-- Typed text will be added here dynamically -->
+        </div>
       </div>
     </div>
   </section>
@@ -149,25 +149,31 @@
     <div class="content">
       <div class="title"><span>My Experience</span></div>
       <div class="boxes">
-        <div class="box">
+        <div class="box expBtn" id="Vexos">
+          <div class="topic">Vexos</div>
+          <div class="topic-2">Application Support Analyst</div>
+          <p>February 2025 to Present</p>
+          <p><i class="fa fa-map-marker"></i> Markham ,ON ,Canada.</p>
+        </div>
+        <div class="box expBtn" id="WEBSTERS SHAPE THE WEB INC">
           <div class="topic">Websters Shape The Web Inc.</div>
           <div class="topic-2">Full Stack Web Developer (Intern)</div>
-          <p>September - 2024 to December - 2023</p>
+          <p>September - 2024 to December - 2024</p>
           <p><i class="fa fa-map-marker"></i> Mississauga,ON,Canada.</p>
         </div>
-        <div class="box">
+        <div class="box expBtn" id="NJ Group">
           <div class="topic">FinLogic Technologies India Private Limited</div>
           <div class="topic-2">Full Stack Web Developer</div>
           <p>July - 2022 to Feburary - 2023</p>
           <p><i class="fa fa-map-marker"></i> Surat,Gujarat,India.</p>
         </div>
-        <div class="box">
+        <div class="box expBtn" id="Toshal Infotech">
           <div class="topic">Toshal Infotech</div>
           <div class="topic-2">Node JS Intern</div>
           <p>Jan - 2022 to April - 2022</p>
           <p><i class="fa fa-map-marker"></i> Surat,Gujarat,India.</p>
         </div>
-        <div class="box">
+        <div class="box expBtn" id="Adaptable Services">
           <div class="topic">Adaptable Services</div>
           <div class="topic-2">Intern</div>
           <p>May - 2021 to June - 2021</p>
@@ -224,6 +230,7 @@
         <div class="timeline-circle"></div>
       </div>
       <div class="timeline-empty">
+
       </div>
 
       <div class="timeline-empty">
@@ -232,7 +239,11 @@
       <div class="timeline-middle">
         <div class="timeline-circle"></div>
       </div>
-
+      <div class="timeline-component timeline-content">
+        <h3>Feb 2025 - Present</h3>
+        <h4>Application Support Analyst</h4>
+        <h5>Vexos</h5>
+      </div>
     </div>
     </div>
     </div>
@@ -244,32 +255,32 @@
       <div class="boxes">
         <div class="box">
           <div class="topic">Web Development</div>
-          <p id="web#crm">CRM - Customer Reationship Model</p>
-          <p id="web#track-reading">Track My Readings</p>
-          <p id="web#sms">Student Management System</p>
-          <p id="web#movie-uni">Movies Universe</p>
+          <p id="webProject#crm">CRM - Customer Reationship Model</p>
+          <p id="webProject#track-reading">Track My Readings</p>
+          <p id="webProject#sms">Student Management System</p>
+          <p id="webProject#movie-uni">Movies Universe</p>
         </div>
         <div class="box">
           <div class="topic">Mobile Development</div>
-          <p id="mob#grc-list">Grocery List</p>
-          <p id="mob#shp-list">Shopping List</p>
-          <p id="mob#shop-pal">My Shop Pal</p>
-          <p id="mob#memory-game">Memory Game</p>
+          <p id="mobProject#grc-list">Grocery List</p>
+          <p id="mobProject#shp-list">Shopping List</p>
+          <p id="mobProject#shop-pal">My Shop Pal</p>
+          <p id="mobProject#memory-game">Memory Game</p>
         </div>
         <div class="box">
           <div class="topic">Data Analysis and Machine Learning</div>
-          <p id="aids#cust-chrun">Customer Chrun Prediction </p>
-          <p id="aids#nyc-ticket">NYC Parking Ticket Reduction </p>
-          <p id="aids#tor-sales">Toronto Ferry Sales - Weather Dashboard </p>
-          <p id="aids#survey">IT Professional Survey Dashboard </p>
+          <p id="data-scienceProject#cust-chrun">Customer Chrun Prediction </p>
+          <p id="data-scienceProject#nyc-ticket">NYC Parking Ticket Reduction </p>
+          <p id="data-scienceProject#tor-sales">Toronto Ferry Sales - Weather Dashboard </p>
+          <p id="data-scienceProject#survey">IT Professional Survey Dashboard </p>
         </div>
       </div>
     </div>
   </section>
 
 
-  <!-- Contact Me section Start
-  <section class="contact" id="contact">
+  <!-- Contact Me section Start -->
+  <!-- <section class="contact" id="contact">
     <div class="content">
       <div class="title"><span>Contact Me</span></div>
       <div class="text">
@@ -284,6 +295,25 @@
     </div>
   </section> -->
 
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 id="expHeader"></h2>
+        <h4 id="expDate"></h4>
+        <h5 id="expLocation"><i class="fa fa-map-marker"></i></h5>
+      </div>
+      <div class="modal-body" id="expRespon">
+      </div>
+      <div class="modal-footer" id="expLocation">
+      </div>
+    </div>
+
+  </div>
+
+
   <!-- Footer Section Start -->
   <footer>
     <div class="text">
@@ -291,7 +321,8 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </body>
 
 </html>

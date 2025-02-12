@@ -1,0 +1,260 @@
+{
+    "projects": [
+        {
+            "project_id": "webProject#crm",
+            "project_category": "web",
+            "project_name": "CRM - Customer Relationship Management",
+            "project_description": "Designed and developed a full-fledged Customer Relationship Management (CRM) system tailored for small-scale businesses to enhance client management and streamline workflow. Implemented role-based access control with three distinct user permission levels, ensuring secure data access for administrators, sales representatives, and customer support staff. Integrated an emailing system using Nodemailer to automate user updates, ticket notifications, and follow-up reminders. Developed a robust MongoDB database structure to efficiently store and manage client interactions, sales data, and service history. Optimized API performance using indexing and caching techniques, reducing response times by 40%. The CRM application helps businesses track customer interactions, manage leads, and improve overall operational efficiency by automating customer engagement workflows.",
+            "tech_stack": [
+                "React.js",
+                "Node.js",
+                "MongoDB",
+                "Express.js",
+                "Nodemailer",
+                "JWT",
+                "RESTful API"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/CRM",
+            "skills": [
+                "Full Stack Development",
+                "Role-Based Access Control",
+                "Database Management",
+                "API Development",
+                "Email Integration",
+                "Performance Optimization"
+            ]
+        },
+        {
+            "project_id": "webProject#track-reading",
+            "project_category": "web",
+            "project_name": "Track My Readings",
+            "project_description": "Developed a book tracking and reading habit monitoring system that allows users to add books to their personal library, set reading goals, and track progress. Implemented user authentication and JWT-based authorization to ensure secure access to personalized reading lists. Designed an intuitive React.js front-end with real-time updates, allowing users to log reading sessions and receive insights on their reading habits. The system features a RESTful API backend built with Node.js and Express.js, managing user interactions with the database. Integrated a recommendation engine that suggests books based on users' reading history. The project helps avid readers stay organized and motivated to reach their reading goals efficiently.",
+            "tech_stack": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "JWT",
+                "RESTful API"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/BookAPI",
+            "skills": [
+                "MERN Stack",
+                "Authentication",
+                "API Development",
+                "Data Analytics",
+                "Recommendation Systems",
+                "User Experience Design"
+            ]
+        },
+        {
+            "project_id": "webProject#sms",
+            "project_category": "web",
+            "project_name": "Student Management System",
+            "project_description": "Developed an advanced student management system designed for educational institutions to manage student records, track attendance, and monitor academic progress. Implemented a role-based access model where students can view their grades, teachers can update records, and administrators have full control over system settings. Built a robust Java Spring Boot backend with RESTful APIs to facilitate seamless data exchange between the front-end and PostgreSQL database. Integrated Spring Security with JWT-based authentication to ensure secure access. Designed a real-time notification system that alerts students about important updates such as exam schedules and assignment deadlines. Optimized database queries, reducing retrieval times by 30%. This project enhances administrative efficiency in schools and universities by digitalizing student management workflows.",
+            "tech_stack": [
+                "Java",
+                "Spring Boot",
+                "Spring Security",
+                "JWT",
+                "PostgreSQL",
+                "RESTful API"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/Student_Demo",
+            "skills": [
+                "Backend Development",
+                "Java Spring Boot",
+                "Database Management",
+                "Security Implementation",
+                "Role-Based Access",
+                "Performance Optimization"
+            ]
+        },
+        {
+            "project_id": "webProject#movie-uni",
+            "project_category": "web",
+            "project_name": "Movies Universe",
+            "project_description": "Developed a dynamic movie browsing and review platform that enables users to explore movies, view detailed information, and manage their personal watchlist. Built using the MERN stack, with a RESTful API backend handling movie data retrieval and user interactions. Implemented user authentication with JWT to ensure personalized experiences, such as saving favorite movies and tracking watched films. Integrated The Movie Database (TMDb) API to fetch real-time movie details, ratings, and reviews. Designed an engaging user interface using React.js, providing smooth navigation and search functionality. Optimized front-end performance by implementing lazy loading and caching mechanisms, enhancing user experience on low-bandwidth networks. This project serves as a one-stop platform for movie enthusiasts to discover and manage their favorite films.",
+            "tech_stack": [
+                "MongoDB",
+                "Express.js",
+                "React.js",
+                "Node.js",
+                "JWT",
+                "RESTful API",
+                "TMDb API"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/MovieAPI",
+            "skills": [
+                "MERN Stack",
+                "API Integration",
+                "User Authentication",
+                "Performance Optimization",
+                "Database Optimization",
+                "UI/UX Design"
+            ]
+        },
+        {
+            "project_id": "mobProject#shop-pal",
+            "project_category": "mobile",
+            "project_name": "MyShopPal",
+            "project_description": "MyShopPal is an Android application designed for Computer Engineering students, enabling a seamless C2C (Consumer-to-Consumer) resource exchange platform within the campus. The application facilitates students in buying, selling, or renting books, instruments, and other educational materials. MyShopPal addresses the challenge of resource accessibility and cost-effectiveness for students by providing a structured marketplace where users can list items with detailed descriptions, images, and pricing. \n\nThe app features a section for academic project exploration, where students can access top-rated projects with comprehensive references from platforms such as Quora and Wikipedia. This integration helps students in their research by providing validated sources and structured learning materials. \n\nFurthermore, MyShopPal includes a dedicated section for university and GATE exam preparation. Students can browse previous years' question papers along with detailed solutions, helping them prepare effectively for competitive exams. To enhance learning, the platform also incorporates a collection of competitive coding problems sourced from platforms like TCS CodeVita and Google Code Jam, with available solutions to guide students through problem-solving techniques. \n\nBy promoting the reuse of educational resources, MyShopPal significantly reduces costs for students while fostering a sustainable approach to academic material exchange. The backend is powered by Firebase for real-time data synchronization, authentication, and secure storage, ensuring a smooth user experience.",
+            "tech_stack": [
+                "Kotlin",
+                "Firebase"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/MyShopPal",
+            "skills": [
+                "Android Development",
+                "Firebase Integration",
+                "C2C Marketplace",
+                "Educational Resource Management",
+                "Competitive Exam Preparation",
+                "Real-Time Database Management"
+            ]
+        },
+        {
+            "project_id": "mobProject#memory-game",
+            "project_category": "mobile",
+            "project_name": "Memory Game",
+            "project_description": "The Memory Game is an engaging and interactive Android-based application designed to improve cognitive skills and enhance memory retention. The game consists of a set of randomly placed cards with hidden icons, where users must match pairs by flipping them over within a limited number of moves or time. This project was built with a focus on intuitive UI design, smooth animations, and an engaging user experience. \n\nThe game features multiple difficulty levels, allowing players to choose between Easy, Medium, and Hard modes, where the number of cards increases progressively. Additionally, a timer-based challenge mode adds an extra level of excitement by requiring players to complete the game within a specified time frame. \n\nTo ensure a seamless user experience, the application implements data persistence using SQLite, allowing users to save their game progress and track their best scores. The app also includes sound effects and visual feedback for correct and incorrect matches, improving engagement. \n\nFrom a development perspective, this project required expertise in Android UI design, memory management, game logic implementation, and SQLite database handling. The game's lightweight nature ensures compatibility across various Android devices, making it accessible to a broad audience.",
+            "tech_stack": [
+                "Kotlin",
+                "SQLite"
+            ],
+            "skills": [
+                "Game Development",
+                "Android UI/UX",
+                "Database Management",
+                "Data Persistence",
+                "Memory Optimization"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/Memory-Game"
+        },
+        {
+            "project_id": "mobProject#grc-list",
+            "project_category": "mobile",
+            "project_name": "Grocery List",
+            "project_description": "The Grocery List application is a feature-rich mobile app that helps users manage their shopping lists efficiently. The app provides an intuitive interface for adding, categorizing, and editing grocery items while keeping track of estimated expenses. The key goal of this project is to simplify grocery shopping by allowing users to create multiple lists, mark items as purchased, and set reminders for essential purchases. \n\nOne of the core features of the app is its voice input functionality, which enables users to add grocery items simply by speaking. Additionally, a barcode scanner feature allows users to scan product barcodes and automatically fetch product details from an integrated database. \n\nThe application supports offline functionality using SQLite, allowing users to manage their lists without requiring an internet connection. Furthermore, an analytical dashboard provides users with insights into their spending patterns by categorizing expenses based on shopping habits. \n\nThe Grocery List app is designed with a focus on user experience, ensuring a clean and minimalistic UI that adapts to different screen sizes. The inclusion of dark mode, notification reminders, and list-sharing capabilities further enhances its usability.",
+            "tech_stack": [
+                "Kotlin",
+                "SQLite",
+                "Google ML Kit (Barcode Scanner)",
+                "Android Jetpack Components"
+            ],
+            "skills": [
+                "Mobile App Development",
+                "Data Storage",
+                "Speech-to-Text Integration",
+                "Barcode Scanning",
+                "UI/UX Design",
+                "Expense Tracking"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/GroceryList"
+        },
+        {
+            "project_id": "mobProject#shp-list",
+            "project_category": "mobile",
+            "project_name": "Shopping List",
+            "project_description": "The Shopping List application is a lightweight yet highly functional mobile app designed to help users create and manage their shopping lists in a fast and convenient way. Unlike traditional paper lists, this app offers real-time item organization, allowing users to sort items by category, priority, or store location. \n\nWith an intuitive and responsive UI, users can quickly add, remove, and check off items from their shopping lists. The app supports cloud synchronization, ensuring that shopping lists remain updated across multiple devices. A smart suggestion feature recommends frequently purchased items based on user history, making it easier to create new lists. \n\nThe Shopping List app also includes a voice command feature, enabling users to add items using natural language processing. Integration with Google Calendar allows users to set shopping reminders based on scheduled events, ensuring that they never forget to buy essentials. The app’s sleek design and optimized performance make it a valuable tool for everyday shopping needs.",
+            "tech_stack": [
+                "Kotlin",
+                "SQLite",
+                "Google Cloud Sync",
+                "Android Jetpack"
+            ],
+            "skills": [
+                "Android Development",
+                "Cloud Data Synchronization",
+                "Natural Language Processing",
+                "User Experience Design",
+                "Database Optimization"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/ShoppingList"
+        },
+        {
+            "project_id": "data-scienceProject#cust-chrun",
+            "project_category": "data-science",
+            "project_name": "Customer Churn Prediction",
+            "project_description": "Developed a machine learning classification model to predict customer churn based on historical customer data. Utilized logistic regression, decision trees, and ensemble methods to enhance predictive accuracy. Conducted feature engineering to extract meaningful insights from customer behavior patterns. Applied hyperparameter tuning to optimize model performance, achieving an accuracy improvement of 15%. The model helps businesses proactively identify at-risk customers and implement retention strategies to reduce churn.",
+            "tech_stack": [
+                "Python",
+                "Scikit-learn",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Seaborn"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/data-analytics-app",
+            "skills": [
+                "Machine Learning",
+                "Classification Models",
+                "Feature Engineering",
+                "Hyperparameter Tuning",
+                "Data Visualization"
+            ]
+        },
+        {
+            "project_id": "data-scienceProject#nyc-ticket",
+            "project_category": "data-science",
+            "project_name": "NYC Parking Ticket Reduction",
+            "project_description": "Built a classification model to predict the chances of reducing a parking ticket fine based on ticket information. Collected and cleaned NYC parking violation data, engineered features related to violation type, location, and past dispute success rates. Trained multiple classification algorithms and deployed the best-performing model with an interactive web interface. The system assists drivers in evaluating whether they should contest their tickets based on historical success rates.",
+            "tech_stack": [
+                "Python",
+                "Scikit-learn",
+                "Flask",
+                "Pandas",
+                "Matplotlib"
+            ],
+            "github_url": "https://github.com/mistryvishal1012/NYC-Parking-Ticket-Model-Deployment-Docker",
+            "skills": [
+                "Data Cleaning",
+                "Classification Model",
+                "Feature Engineering",
+                "Model Deployment"
+            ]
+        },
+        {
+            "project_id": "data-scienceProject#tor-sales",
+            "project_category": "data-science",
+            "project_name": "Toronto Ferry Sales - Weather Dashboard",
+            "project_description": "Developed an interactive Tableau dashboard to analyze ferry ticket sales in Toronto, integrating open data from the Toronto Government and weather data. The data was processed through an ETL pipeline, merging the datasets and transforming them for analysis. The dashboard included a moving average to analyze sales trends and a weather analysis feature to explore correlations between weather conditions and ferry ticket sales. The dashboard provided valuable insights to help the city optimize ferry services and pricing.",
+            "tech_stack": [
+                "Tableau",
+                "SQL",
+                "ETL",
+                "Open Data",
+                "Weather Data"
+            ],
+            "github_url": "https://public.tableau.com/app/profile/vishal.mistry7540/viz/TorontoIslandFerrySalesFiguresfor2023/2023Dashboard",
+            "skills": [
+                "Data Visualization",
+                "ETL Process",
+                "Tableau Dashboard",
+                "Weather Data Analysis",
+                "Data Integration"
+            ]
+        },
+        {
+            "project_id": "data-scienceProject#survey",
+            "project_category": "data-science",
+            "project_name": "IT Professional Survey Dashboard",
+            "project_description": "Created a Power BI dashboard to provide insights based on an IT professionals' survey, which was cleaned and transformed using Power Query and DAX functions. The dashboard allowed the exploration of key trends in IT job satisfaction, skills, and career growth. Key metrics such as salary distributions, job satisfaction ratings, and professional development opportunities were visualized to help organizations understand the state of the IT industry and tailor their HR policies accordingly.",
+            "tech_stack": [
+                "Power BI",
+                "Power Query",
+                "DAX",
+                "Survey Data",
+                "Data Transformation"
+            ],
+            "github_url": "",
+            "skills": [
+                "Power BI",
+                "Data Transformation",
+                "Survey Analysis",
+                "DAX Functions",
+                "Dashboard Creation"
+            ]
+        }
+    ]
+}

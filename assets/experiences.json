@@ -1,0 +1,149 @@
+{
+    "experiences": [
+        {
+            "organization": "Vexos",
+            "location": "Markham, ON",
+            "job_title": "Application Support Analyst",
+            "start_date": "February 2024",
+            "end_date": "Till Now",
+            "tech_stack": [
+                ".NET Framework",
+                "C#",
+                "ASP.NET",
+                "SQL Server",
+                "SSIS",
+                "Windows Server",
+                "IIS"
+            ],
+            "skills": [
+                "Full-Stack Development",
+                "Database Development",
+                "Windows Application Development",
+                "Troubleshooting & Production Support",
+                "Business Requirement Analysis",
+                "Process Automation"
+            ],
+            "responsibilities": [
+                "Designed and developed Web and Windows applications using the .NET framework, ensuring seamless integration and optimized performance.",
+                "Collaborated with cross-functional teams to gather business requirements and deliver custom solutions tailored to organizational needs.",
+                "Developed and maintained SQL Server objects including stored procedures, user-defined functions (UDFs), views, and SSIS packages, optimizing performance and ensuring adherence to best practices.",
+                "Automated database processes with SQL Agent jobs, improving operational efficiency and reducing manual tasks.",
+                "Provided production support, troubleshooting MS SQL issues and ensuring system stability in a 24x7 environment."
+            ]
+        },
+        {
+            "organization": "WEBSTERS SHAPE THE WEB INC",
+            "location": "Mississauga, ON",
+            "job_title": "Full Stack Web Developer (Co-Op)",
+            "start_date": "September 2024",
+            "end_date": "December 2024",
+            "tech_stack": [
+                "Node.js",
+                "Express.js",
+                "React.js",
+                "Redux",
+                "GitHub"
+            ],
+            "skills": [
+                "Full-Stack Development",
+                "API Integration",
+                "State Management",
+                "Version Control",
+                "Performance Optimization"
+            ],
+            "responsibilities": [
+                "Developed and maintained full-stack web applications utilizing Node.js and Express.js for the back-end and React.js for the front-end, ensuring high-quality user experiences and seamless functionality.",
+                "Integrated and optimized REST APIs to manage user data and synchronize it across multiple platforms, improving overall performance and reliability.",
+                "Utilized Redux for efficient state management across React applications, reducing redundancy and improving scalability.",
+                "Utilized GitHub for version control, managing codebase, branches, and pull requests to facilitate collaborative development and ensure code quality and integrity.",
+                "Optimized front-end performance by analyzing and improving code efficiency, utilizing techniques such as lazy loading, code splitting, and caching mechanisms."
+            ]
+        },
+        {
+            "organization": "NJ Group",
+            "location": "Gujarat, India",
+            "job_title": "Full Stack Web Developer",
+            "start_date": "July 2022",
+            "end_date": "February 2023",
+            "tech_stack": [
+                "Java",
+                "Spring Boot",
+                "Spring MVC",
+                "React.js",
+                "Redux",
+                "SQL",
+                "JWT"
+            ],
+            "skills": [
+                "API Development",
+                "Database Optimization",
+                "Security Implementation",
+                "Agile Development",
+                "Frontend-Backend Integration"
+            ],
+            "responsibilities": [
+                "Developed REST APIs following detailed specifications, incorporating error handling and adhering to best practices using Java Spring MVC and Spring Boot.",
+                "Designed financial reporting features for NJWealth Client Site, including Interest and Maturity Income tracking.",
+                "Conducted testing and debugging with Postman, ensuring functionality and robustness of APIs.",
+                "Designed and optimized SQL database schemas and queries to efficiently manage and retrieve data for optimal performance and scalability.",
+                "Integrated Redux state management into front-end applications to effectively store and synchronize user data fetched from back-end APIs, enhancing responsiveness and user experience.",
+                "Improved database performance through query optimization and schema restructuring, achieving a 30% reduction in data retrieval times.",
+                "Implemented JWT-based authentication and customized Spring Security configurations to meet feature documentation requirements.",
+                "Migrated legacy JSP components to React.js and integrated Web APIs for enhanced functionality.",
+                "Transitioned SWP pipelines from Java Servlets to Spring Boot, improving system performance.",
+                "Built and integrated API pipelines for social media campaign tracking.",
+                "Conducted thorough testing, debugging, and performance optimization of APIs, SQL queries, and front-end Redux components to identify and resolve issues, maintaining a stable and scalable application architecture.",
+                "Practiced Agile methodologies, participating in sprint planning, daily stand-ups, and code reviews to deliver high-quality software solutions within project timelines and scope.",
+                "Documented technical specifications, API endpoints, database schemas, and integration processes to facilitate team collaboration, troubleshooting, and future enhancements.",
+                "Developed responsive and interactive user interfaces using React.js, Next.js, and JSP, leveraging JavaScript, Bootstrap, and CSS to enhance user experience and ensure cross-browser compatibility."
+            ]
+        },
+        {
+            "organization": "Toshal Infotech",
+            "location": "Gujarat, India",
+            "job_title": "Back End Developer Intern",
+            "start_date": "January 2022",
+            "end_date": "April 2022",
+            "tech_stack": [
+                "Java",
+                "Spring Boot",
+                "SQL",
+                "Postman"
+            ],
+            "skills": [
+                "API Development",
+                "Role-Based Access Control",
+                "Bug Fixing",
+                "Testing"
+            ],
+            "responsibilities": [
+                "Built REST APIs for a CRM system, implementing secure role-based access controls.",
+                "Created an inventory management feature, following documentation standards.",
+                "Fixed bugs and ensured API functionality using Postman."
+            ]
+        },
+        {
+            "organization": "Adaptable Services",
+            "location": "Gujarat, India",
+            "job_title": "Web Developer Intern",
+            "start_date": "May 2021",
+            "end_date": "July 2021",
+            "tech_stack": [
+                "PHP",
+                "SQL",
+                "Bootstrap",
+                "JavaScript"
+            ],
+            "skills": [
+                "Web Development",
+                "Database Optimization",
+                "UI/UX Design"
+            ],
+            "responsibilities": [
+                "Developed SaaS invoicing using PHP, SQL, and Bootstrap.",
+                "Enhanced database response time by optimizing SQL queries.",
+                "Built user-friendly UIs for smooth client interaction."
+            ]
+        }
+    ]
+}
